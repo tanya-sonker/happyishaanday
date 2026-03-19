@@ -1,4 +1,4 @@
-const CACHE = 'sukuna-v1';
+const CACHE = 'sukuna-v2';
 const ASSETS = [
   './',
   './index.html',
