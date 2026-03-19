@@ -5,10 +5,10 @@ const ASSETS = [
   './styles.css',
   './script.js',
   './manifest.json',
-  './sukuna/sukuna-open.jpg',
-  './sukuna/sukuna-closed.jpg',
-  './sukuna/shrine.svg',
-  './sukuna/sukuna-finger.svg',
+  './assets/sukuna-open.png',
+  './assets/sukuna-closed.png',
+  './assets/shrine.svg',
+  './assets/sukuna-finger.svg',
   'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'
 ];
 
