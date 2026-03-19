@@ -1,0 +1,18 @@
+{
+  "name": "Happy Birthday Ishaan",
+  "short_name": "Ishaan 🎂",
+  "description": "A Sukuna-themed birthday card for Ishaan",
+  "start_url": "/happyishaanday/",
+  "display": "standalone",
+  "background_color": "#060606",
+  "theme_color": "#060606",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./sukuna/sukuna-finger.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
