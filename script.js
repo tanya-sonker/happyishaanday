@@ -5,6 +5,29 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+// ── Dismiss splash screen ──
+window.addEventListener('load', () => {
+  const splash  = document.getElementById('splash');
+  const bar     = document.getElementById('splash-bar');
+  const pct     = document.getElementById('splash-pct');
+  let progress  = 0;
+
+  const interval = setInterval(() => {
+    // Accelerate faster near the end once page is loaded
+    progress += Math.random() * 12 + 4;
+    if (progress >= 100) {
+      progress = 100;
+      clearInterval(interval);
+      bar.style.width = '100%';
+      pct.textContent = '100%';
+      setTimeout(() => splash.classList.add('hidden'), 400);
+    } else {
+      bar.style.width = progress + '%';
+      pct.textContent = Math.floor(progress) + '%';
+    }
+  }, 80);
+});
+
 // ── Trigger .active on enter, reset on exit so animations replay on scroll up ──
 // Track pending kanji timeouts so we can cancel them if the user scrolls away fast
 const kanjiTimers = [];
