@@ -9,7 +9,7 @@ const ASSETS = [
   './assets/sukuna-closed.png',
   './assets/shrine.svg',
   './assets/sukuna-finger.svg',
-  './assets/sukuna-pwa.jpg',
+  './assets/sukuna-pwa-base-icon.jpg',
   './assets/icon-192.png',
   './assets/icon-512.png',
   'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'
